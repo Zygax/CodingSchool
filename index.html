@@ -1,0 +1,107 @@
+<!-- DOCTYPE html tells the browser that this is a html type document --->
+<!DOCTYPE html>
+<!--<html> tells the browsert that everything insede it is html. This will make sure that everything inside it would inherit some neccesary characteristics of hmtl -->
+<html>
+    <!--head section contains information about the website. Also this is where you load CSS and JavaScript files -->
+    <head>
+        <!--utf8 is a type of unicode of coding used virtualy in all of the websites in the world. We need it to translate letters, number and symbols that we use in to bytes used by computers. It' like dictionary translating from human language to computer language -->
+        <meta charset="utf-8">
+        <!--This is important for responsive websites. Responsive means that website can be displayed properly on different devices (computers, phones, tabloids). Content in this code says that website should be same size as the size of device. Initial scale sets the zoom of the browser. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Tittle sets the tittle of the page. -->
+        <title>
+            My First Website
+        </title>
+    </head>
+    <!--body tag is where the main information of the page is located. -->
+    <body>
+        <!--h stands for headline. h has numbers after the h and they range from h1 to h6. h1 is highest of priority and is generaly used for the title of the page-->
+        <h1>My First Website</h1>
+        <h2>An HTML Playground</h2>
+        <!--b tag makes makes text bold-->
+        Zygimantas Poska portfolio.  <b>You can find all of my previous work here </b>
+        <!--p stands for paragraph. You can use paragraph to separate content in to blocks.-->
+    <p> 
+        Lorem ipsum dolor sit amet, integre pertinax pri ut. Cu pro idque libris referrentur. Cibo repudiare instructior mel no, veri fugit ei mel. Sit neglegentur intellegebat ex, te erroribus disputando ius. Ei euripidis consetetur conclusionemque per.
+    </p>
+    <p>
+        In modo deterruisset conclusionemque eam, te commodo dissentiunt vim. Sea te dolore copiosae, an labore noluisse intellegam vel. Duo ei soleat assueverit quaerendum. Cum at feugiat dolorum civibus. Est fabulas phaedrum no, moderatius comprehensam no ius, et eum volumus adversarium. Nam an probatus adipisci praesent, nec sapientem gubergren assueverit id.
+    </p>
+    <!--br line is for breaking the text to another line-->
+    Nam mucius deserunt ad, at vide vivendo rationibus has. <br><br> 
+    <!--i-italic; u-underlined, em-emphisise, str-strong-->
+    <i>Ut usu omittam pertinacia, ea vix adhuc inani fabulas.</i> In eum eripuit conclusionemque.<br>
+     <u>Te eam dicunt percipit.</u>
+      Nostrud tibique eos id. Etiam paulo repudiare sit et, an mei nonumy scribentur, ei tale dolorem pri.<br>
+       <em>At sit munere pertinax disputando, nobis discere cum an, errem salutatus ius no.</em><br>
+       <strong>Cu pro idque libris referrentur.</strong>
+       <!--hr puts a horizontal line across the page-->
+        <hr>
+        <!--a stands for an anchor. This tag links pages. href stands for hypertext referance. URL stands for universal resource locator, this acts as a location or a file that you want to load. Target controls if the new link that you click opens on the same tab or will open another tab-->
+       <a href="https://www.google.com" target="_blank">Dicat dolore qui at. Tota ceteros repudiare vim ne.</a> Iudico postea atomorum ad eam. Nostro nusquam molestie ex pri, sed ei illum labores interesset, qui ad persius platonem. Impetus lucilius dissentiet qui at, paulo dolor electram vel et. Intellegat democritum instructior ei eum, vel id mentitum democritum ullamcorper. <br>
+
+       <!--img lets to upload images to website. Link tag needs url, image atribute has src meaning the source of the image. Border gives border around the image  -->
+       <img src="350x150.png" border="10">
+
+       <!--ul-stands for unordered lists, as opose to ol-ordered lists. ul uses bullets, ol uses numbers. <li> separates bullets/numbers.-->
+       <ul>
+        <li>apples</li>
+                <ul>
+                    <li>red</li>
+                    <li>green</li>
+                    <li>yellow</li>
+                </ul>
+        <li>oranges</li>
+        <li>pears</li>
+        <li>watermellons</li>
+        <li>peaches</li>
+       </ul>
+        <!--tables are used to make information more organized. Like excel spreadsheet. border adds border. Cellpadding controls the extra space in each cell. Cellspacing controls space between each cell.-->
+        <table border="1" cellpadding="10" cellspacing="0">
+            <!--The Table Row element. The <tr> HTML element defines a row of cells in a table-->
+            <tr>
+                <th></th>
+                <!--The Table Header element. The <th> HTML element defines a cell as header of a group of table cells-->
+                <th>Month</th>
+                <th>Rent</th>
+                <!--The colspan attribute defines the number of columns a table cell should span (apimti). -->
+                <th colspan="2">Utilities</th>
+                <th>Groceries</th>
+                <th>Eating out</th>
+                <th>Entertainment</th>
+            </tr>
+            <tr>
+                <!--The Table Data Cell element. The <td> HTML element defines a cell of a table that contains data-->
+                                    <!--The rowspan attribute specifies the number of rows a cell should span.-->
+                 <td rowspan="3">Fall</td>
+                <td>June</td>
+                <td>$700</td>
+                <td>$50</td>
+                <td>$150</td>
+                <td>$300</td>
+                <td>$400</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>$700</td>
+                <td>$50</td>
+                <td>$150</td>
+                <td>$300</td>
+                <td>$400</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>August</td>
+                <td>$700</td>
+                <td>$50</td>
+                <td>$150</td>
+                <td>$300</td>
+                <td>$400</td>
+                <td>$100</td>
+            </tr>
+        </table>
+        
+
+    </body>
+</html>
